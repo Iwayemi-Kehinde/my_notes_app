@@ -22,7 +22,7 @@ passport.use(
 
       try {
         let user = await User.findOne({ googleId: profile.id });
-        if (user) {
+        if (user) { 
           done(null, user);
         } else {
           user = await User.create(newUser);
@@ -40,6 +40,7 @@ router.get(
   "/auth/google",
   passport.authenticate("google", { scope: ["email", "profile"] })
 );
+
 
 // Retrieve user data
 router.get(
@@ -60,7 +61,7 @@ router.get('/logout', (req, res) => {
   req.session.destroy(error => {
     if(error) {
       console.log(error);
-      res.send('Error loggin out');
+      res.send('Error logging out');
     } else {
       res.redirect('/')
     }

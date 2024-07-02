@@ -1,7 +1,4 @@
-# Notes-NodeJs-CRUD-MongoDB
-
-## Udates
-[x] Fixed Mongoose Notes Query Issue 7.0.0
+# Notes app in Node.js and MongoDB
 
 ## You need:
 - Database (MongoDB)
@@ -25,18 +22,15 @@ $ npm install
 $ npm start
 ```
 
-### YouTube Video & Article
+We welcome contributions from the community. If you'd like to collaborate, please follow these steps:
 
-[YouTube Video](https://youtu.be/)
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a Pull Request.
 
-[Read Article](https://raddy.dev/blog/)
+Thanks. <a href="kehindeiwayemi.pages.dev" target="_blank">
+  <img src="https://img.shields.io/badge/Visit%20My%20Portfolio-Blue?style=for-the-badge" alt="My Portfolio">
+</a>
 
-### YouTube Channel - Raddy
-
-[Subscribe to my YouTube Channel](https://www.youtube.com/channel/UCvXscyQ0cLzPZeNOeXI45Sw?sub_confirmation=1)
-
-### Website
-[www.raddy.dev](https://www.raddy.dev)
-
-### Donations
-[Buy me a Coffee](https://www.buymeacoffee.com/RaddyTheBrand)
