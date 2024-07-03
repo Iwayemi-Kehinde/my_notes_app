@@ -12,7 +12,7 @@ exports.dashboard = async (req, res) => {
 
   const locals = {
     title: "Dashboard",
-    description: "NodeJS Notes App.",
+    description: "Notes App.",
   };
 
   try {
@@ -135,7 +135,7 @@ exports.dashboardAddNote = async (req, res) => {
 /**
  * POST /
  * Add Notes
- */
+ */ 
 exports.dashboardAddNoteSubmit = async (req, res) => {
   try {
     req.body.user = req.user.id;
